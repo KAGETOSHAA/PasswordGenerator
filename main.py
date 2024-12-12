@@ -1,4 +1,5 @@
 import random
+
 print("\nChoose the components of your password: ")
 print("Upper case letters - 1")
 print("Lower case letters - 2")
@@ -25,6 +26,7 @@ upper_case_letters = 'QWERTYUIOPASDFGHJKLZXCVBNM'
 lower_case_letters = 'qwertyuiopasdfghjklzxcvbnm'
 numbers = '1234567890'
 special_symbols = '!@#$%^&*(){}[]'
+
 while Continue:
     sym_in_pass = input("Enter the components:     ")
     length = int(input("Enter the password length:     "))
